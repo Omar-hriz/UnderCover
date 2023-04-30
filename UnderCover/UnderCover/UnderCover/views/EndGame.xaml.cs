@@ -63,7 +63,7 @@ namespace UnderCover
                         case "Under Cover":
                             playersScore[player] += 5;
                             break;
-                        case "Mr Whie":
+                        case "Mr White":
                             playersScore[player] += 10;
                             break;
                         case "Civilan":
