@@ -49,7 +49,7 @@ namespace UnderCover
                 stackBox.Children.Add(hStack);
             }
             whoWon.Text = text;
-            civilanWord.Text = (Application.Current as App).words[0]["Civilian"];
+            civilanWord.Text = (Application.Current as App).words[0]["Civilan"];
             underCoverWord.Text = (Application.Current as App).words[0]["Unde Cover"];
         }
         void updateScore()
@@ -66,7 +66,7 @@ namespace UnderCover
                         case "Mr Whie":
                             playersScore[player] += 10;
                             break;
-                        case "Civilian":
+                        case "Civilan":
                             playersScore[player] += 5;
                             break;
                     }

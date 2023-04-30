@@ -18,7 +18,7 @@ namespace UnderCover
         {
             Placeholder = "Player to be eliminated",
             PlaceholderColor = Color.White,
-            Margin = new Thickness(32,8,32,8),
+            Margin = new Thickness(8,32,8,32),
         };
         public MainPage()
         {
@@ -79,7 +79,7 @@ namespace UnderCover
             }
         }
 
-        public void EliminatePlayer(object sender, EventArgs e)
+        public async void EliminatePlayer(object sender, EventArgs e)
         {
             /*ImageButton button = (ImageButton)sender;
             Console.WriteLine(Int32.Parse(button.CommandParameter.ToString()));
@@ -106,7 +106,10 @@ namespace UnderCover
                         
                 }
             }
-
+            if (App.PlayerList.Count == 2)
+            {
+                await Navigation.PushAsync(new EndGame());
+            }
             stackBox.Children.Clear();
             foreach (var player_d in App.PlayerList)
             {
