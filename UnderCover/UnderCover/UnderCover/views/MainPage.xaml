@@ -4,7 +4,8 @@
              x:Class="UnderCover.MainPage"
              xmlns:local="clr-namespace:UnderCover"
              >
-    <StackLayout BackgroundColor="#FFB743">
+    <StackLayout BackgroundColor="#FFB743"
+                 x:Name="layout">
         <local:TextOverImage 
             Margin="16,16,16,56" 
             FontSize="32" 

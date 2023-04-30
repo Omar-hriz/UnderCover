@@ -47,3 +47,27 @@ C:\Users\proprietaire\OneDrive\Documents\C# scripts\Xamarin-Project\UnderCover\U
 C:\Users\proprietaire\OneDrive\Documents\C# scripts\Xamarin-Project\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\refint\UnderCover.dll
 C:\Users\proprietaire\OneDrive\Documents\C# scripts\Xamarin-Project\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\UnderCover.pdb
 C:\Users\proprietaire\OneDrive\Documents\C# scripts\Xamarin-Project\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\ref\UnderCover.dll
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\bin\Debug\netstandard2.0\UnderCover.deps.json
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\bin\Debug\netstandard2.0\UnderCover.dll
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\bin\Debug\netstandard2.0\UnderCover.pdb
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\UnderCover.csproj.AssemblyReference.cache
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\UnderCover.GeneratedMSBuildEditorConfig.editorconfig
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\views\CharaPicking.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\views\ChooseNamePopUp.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\views\EndGame.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\views\MainPage.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\views\Menu.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\views\PickCard.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\views\PlayerDisplay.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\views\PlayerIlimination.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\views\TestPopUp.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\views\TextOverImage.xaml.g.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\UnderCover.AssemblyInfoInputs.cache
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\UnderCover.AssemblyInfo.cs
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\UnderCover.csproj.CoreCompileInputs.cache
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\UnderCover.dll
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\refint\UnderCover.dll
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\UnderCover.pdb
+D:\Xamarin_last\UnderCover\UnderCover\UnderCover\UnderCover\obj\Debug\netstandard2.0\ref\UnderCover.dll
