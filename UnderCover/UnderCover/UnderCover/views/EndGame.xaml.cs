@@ -50,7 +50,7 @@ namespace UnderCover
             }
             whoWon.Text = text;
             civilanWord.Text = (Application.Current as App).words[0]["Civilan"];
-            underCoverWord.Text = (Application.Current as App).words[0]["Unde Cover"];
+            underCoverWord.Text = (Application.Current as App).words[0]["Under Cover"];
         }
         void updateScore()
         {
@@ -60,7 +60,7 @@ namespace UnderCover
                 {
                     switch (player.role)
                     {
-                        case "Unde Cover":
+                        case "Under Cover":
                             playersScore[player] += 5;
                             break;
                         case "Mr Whie":
