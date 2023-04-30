@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:undercover="clr-namespace:UnderCover"
+             x:DataType="undercover:DisplayPlayer"
+             x:Class="UnderCover.PlayerDisplay"
+             x:Name="this">
+  <ContentView.Content>
+        <Grid
+            RowDefinitions="*, *"
+            ColumnDefinitions="*, *"
+            WidthRequest="80"
+        >
+            <Image 
+                Grid.Row="1" 
+                Grid.ColumnSpan="2"
+                Source="small_box.png"  
+                Aspect="AspectFit" 
+                WidthRequest="60"
+            />
+            <Label 
+                Grid.Row="1" 
+                Grid.ColumnSpan="2"
+                Text="{Binding Name, Source={x:Reference this}}"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                TextColor="#FFB743" 
+                FontSize="11"
+                FontAttributes="Bold"
+            />
+            <Image 
+                Grid.Row="0" 
+                Grid.Column="1"
+                Source="small_round_box.png"  
+                Aspect="AspectFit" 
+                WidthRequest="24"
+                VerticalOptions="End"
+                HorizontalOptions="End"
+                Margin="15,0,0,-15"
+            />
+            <Label 
+                Grid.Row="0" 
+                Grid.Column="1"
+                Text="{Binding Order, Source={x:Reference this}}"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Margin="15,0,0,-15"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                TextColor="#FFB743" 
+                FontSize="12"
+                FontAttributes="Bold"
+            />
+        </Grid>
+    </ContentView.Content>
+</ContentView>

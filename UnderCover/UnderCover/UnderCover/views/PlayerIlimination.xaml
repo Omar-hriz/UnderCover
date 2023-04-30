@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:undercover="clr-namespace:UnderCover"
+             x:DataType="undercover:PlayerIlimination"
+             x:Class="UnderCover.PlayerIlimination"
+             x:Name="this">
+  <ContentView.Content>
+        <Grid
+            RowDefinitions="*, *"
+            ColumnDefinitions="*, *"
+            WidthRequest="80"
+            x:Name="myGrid"
+        >
+            <Image 
+                Grid.Row="1" 
+                Grid.ColumnSpan="2"
+                Source="small_box.png"  
+                Aspect="AspectFit" 
+                WidthRequest="60"
+            />
+            <Label 
+                Grid.Row="1" 
+                Grid.ColumnSpan="2"
+                Text="{Binding Name, Source={x:Reference this}}"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                TextColor="#FFB743" 
+                FontSize="11"
+                FontAttributes="Bold"
+            />
+        </Grid>
+    </ContentView.Content>
+</ContentView>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="UnderCover.PickCard"
+             xmlns:views="clr-namespace:UnderCover.views"
+             > 
+    <ContentPage.Content>
+        
+        <Grid>
+            <StackLayout BackgroundColor="#FFB743">
+
+                <Grid RowSpacing="0" Margin="16,16,16,56" IsVisible="True" >
+                    <Image 
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Source="large_box.png"  
+                    Aspect="AspectFit" 
+                    HorizontalOptions="Center"
+                />
+                    <Label 
+                    x:Name="title"
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Text="Pick a Card" 
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    TextColor="#FFB743" 
+                    FontSize="40"
+                    FontAttributes="Bold"
+                />
+                </Grid>
+
+                <Grid RowSpacing="0"  IsVisible="True">
+                    <Image
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Source="text_box.png"  
+                    Aspect="AspectFit" 
+                    HorizontalOptions="Center"
+                />
+                    <FlexLayout
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Margin="60,68,60,0" 
+                    x:Name="stackBox"
+                    Direction="Row"
+                    Wrap="Wrap"
+                    HorizontalOptions="FillAndExpand"
+                    JustifyContent="SpaceAround"
+                    AlignContent="Start"
+                    AlignItems="Start"
+                    >
+
+                    </FlexLayout>
+                </Grid>
+
+            </StackLayout>
+            <views:ChooseNamePopUp x:Name="chooseName"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UnderCover.MainPage"
+             xmlns:local="clr-namespace:UnderCover"
+             >
+    <StackLayout BackgroundColor="#FFB743">
+        <local:TextOverImage 
+            Margin="16,16,16,56" 
+            FontSize="32" 
+            Source="large_box.png" 
+            Text="Eliminate Someone"
+            x:Name="title"
+        />
+        <Grid RowSpacing="0"  IsVisible="True">
+            <Image
+                Grid.Row="0" 
+                Grid.Column="0"
+                Source="text_box.png"  
+                Aspect="AspectFit" 
+                HorizontalOptions="Center"
+            />
+            <FlexLayout
+                Grid.Row="0" 
+                Grid.Column="0"
+                Margin="48,24,48,0" 
+                x:Name="stackBox"
+                Direction="Row"
+                Wrap="Wrap"
+                JustifyContent="SpaceAround"
+                AlignContent="Start"
+                AlignItems="Start"
+                HeightRequest="100"
+            >
+                
+            </FlexLayout>
+        </Grid>
+        <ImageButton 
+            Source="blank_button.png"  
+            Aspect="AspectFit" 
+            HorizontalOptions="Center" 
+            HeightRequest="72"
+            BackgroundColor="#00000000"
+            Margin="0,32,0,0"
+            Clicked="StartDelete"
+        />
+    </StackLayout>
+</ContentPage>

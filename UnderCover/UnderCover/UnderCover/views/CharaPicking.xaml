@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="UnderCover.CharaPicking"
+             xmlns:views="clr-namespace:UnderCover">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#FFB743">
+
+            <Grid RowSpacing="0" Margin="16,16,16,56" IsVisible="True" >
+                <Image 
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Source="large_box.png"  
+                    Aspect="AspectFit" 
+                    HorizontalOptions="Center"
+                />
+                <Label 
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Text="3 Players" 
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    TextColor="#FFB743" 
+                    FontSize="42"
+                    FontAttributes="Bold"
+                    x:Name="title"
+                />
+            </Grid>
+
+            <Grid RowSpacing="0"  IsVisible="True">
+                <Image
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Source="text_box.png"  
+                    Aspect="AspectFit" 
+                    HorizontalOptions="Center"
+                />
+                <StackLayout
+                    Margin="16,40,16,16" 
+                    x:Name="stackBox"
+                    Spacing="0"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                >
+                    <StackLayout Orientation="Horizontal" Padding="8">
+                        <ImageButton
+                            Source="add_button.png"
+                            Aspect = "AspectFit"
+                            VerticalOptions = "Center"
+                            HeightRequest = "42"
+                            BackgroundColor = "Transparent"
+                            Clicked="addUnderCover"
+                        />
+                        <views:TextOverImage 
+                            Source = "text_box.png"
+                            FontSize="30"
+                            HeightRequest="47"
+                            Text="1"
+                            x:Name="underCoverLabel"
+                        />                        
+                       
+                        <ImageButton
+                            Source="minus_button.png"
+                            Aspect = "AspectFit"
+                            VerticalOptions = "Center"
+                            HeightRequest = "42"
+                            BackgroundColor = "Transparent"
+                            Clicked="subUnderCover"
+                        /> 
+                        <views:TextOverImage 
+                            Source = "round_box.png"
+                            FontSize="12"
+                            HeightRequest="42"
+                            Text="Under Cover"
+                        />
+                    </StackLayout>                   
+                    <StackLayout Orientation="Horizontal" Padding="8">
+                        <ImageButton
+                            Source="add_button.png"
+                            Aspect = "AspectFit"
+                            VerticalOptions = "Center"
+                            HeightRequest = "42"
+                            BackgroundColor = "Transparent"
+                            Clicked="addCivilan"
+                        />
+                        <views:TextOverImage 
+                            Source = "text_box.png"
+                            FontSize="30"
+                            HeightRequest="47"
+                            Text="1"
+                            x:Name="civilanLabel"
+                        />                        
+                       
+                        <ImageButton
+                            Source="minus_button.png"
+                            Aspect = "AspectFit"
+                            VerticalOptions = "Center"
+                            HeightRequest = "42"
+                            BackgroundColor = "Transparent"
+                            Clicked="subCivilan"
+                        /> 
+                        <views:TextOverImage 
+                            Source = "round_box.png"
+                            FontSize="12"
+                            HeightRequest="42"
+                            Text="Civilian"
+                        />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="8">
+                        <ImageButton
+                            Source="add_button.png"
+                            Aspect = "AspectFit"
+                            VerticalOptions = "Center"
+                            HeightRequest = "42"
+                            BackgroundColor = "Transparent"
+                            Clicked="addMrWhite"
+                        />
+                        <views:TextOverImage 
+                            Source = "text_box.png"
+                            FontSize="30"
+                            HeightRequest="47"
+                            Text="1"
+                            x:Name="mrWhiteLabel"
+                        />                        
+                       
+                        <ImageButton
+                            Source="minus_button.png"
+                            Aspect = "AspectFit"
+                            VerticalOptions = "Center"
+                            HeightRequest = "42"
+                            BackgroundColor = "Transparent"
+                            Clicked="subMrWhite"
+                        /> 
+                        <views:TextOverImage 
+                            Source = "round_box.png"
+                            FontSize="12"
+                            HeightRequest="42"
+                            Text="Mr White"
+                        />
+                    </StackLayout>
+                    
+                </StackLayout>
+            </Grid>
+
+            <ImageButton 
+                Grid.Row="0" 
+                Grid.Column="0"
+                Source="blank_button.png"  
+                Aspect="AspectFit" 
+                HorizontalOptions="Center" 
+                HeightRequest="72"
+                Clicked="Play"
+                BackgroundColor="#00000000"
+                Margin="0,32,0,0" 
+            />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

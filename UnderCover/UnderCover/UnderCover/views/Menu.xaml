@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UnderCover.Menu">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#FFB743">
+
+            <Grid RowSpacing="0" Margin="16,16,16,56" IsVisible="True" >
+                <Image 
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Source="blank_button.png"  
+                    Aspect="AspectFit" 
+                    HorizontalOptions="Center"
+                />
+                <Label 
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Text="Under Cover" 
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    TextColor="#7D440D" 
+                    FontSize="48"
+                    FontAttributes="Bold"
+                />
+            </Grid>
+            
+            <Grid RowSpacing="0"  IsVisible="True" >
+                <Image
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Source="text_box.png"  
+                    Aspect="AspectFit" 
+                    HorizontalOptions="Center"
+                />
+                <StackLayout Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" HeightRequest="314" >
+
+                    <Grid RowSpacing="0" Margin="0,72,0,0" IsVisible="True" >
+                        <ImageButton 
+                            Grid.Row="0" 
+                            Grid.Column="0"
+                            Source="blank_button.png"  
+                            Aspect="AspectFit" 
+                            HorizontalOptions="Center" 
+                            HeightRequest="60"
+                            Clicked="StartGame"
+                            BackgroundColor="#00000000"
+                        />
+                    </Grid>
+
+                    <Grid RowSpacing="0" Margin="0,0,0,0" IsVisible="True" >
+                        <Image 
+                            Grid.Row="0" 
+                            Grid.Column="0"
+                            Source="blank_button.png"  
+                            Aspect="AspectFit" 
+                            HorizontalOptions="Center" 
+                            HeightRequest="60"
+                        />
+                        <Label 
+                            Grid.Row="0" 
+                            Grid.Column="0"
+                            Text="Options" 
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"
+                            TextColor="#7D440D" 
+                            FontSize="20"
+                            FontAttributes="Bold"
+                        />
+                    </Grid>
+                    
+                    <Grid RowSpacing="0" Margin="0,0,0,0" IsVisible="True" >
+                        <Image 
+                            Grid.Row="0" 
+                            Grid.Column="0"
+                            Source="blank_button.png"  
+                            Aspect="AspectFit" 
+                            HorizontalOptions="Center" 
+                            HeightRequest="60"
+                        />
+                        <Label 
+                            Grid.Row="0" 
+                            Grid.Column="0"
+                            Text="Rules" 
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"
+                            TextColor="#7D440D" 
+                            FontSize="20"
+                            FontAttributes="Bold"
+                        />
+                    </Grid>
+
+                </StackLayout>
+            </Grid>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UnderCover.EndGame"
+             xmlns:local="clr-namespace:UnderCover">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#FFB743">
+            <local:TextOverImage 
+            Margin="16,16,16,56" 
+            FontSize="32" 
+            Source="large_box.png" 
+            Text="Dash Board"
+            x:Name="title"
+        />
+            <Grid RowSpacing="0"   IsVisible="True">
+                <Image
+                Grid.Row="0" 
+                Grid.Column="0"
+                Source="text_box.png"  
+                Aspect="AspectFit" 
+                HorizontalOptions="Center"
+            />
+                <FlexLayout
+                Grid.Row="0" 
+                Grid.Column="0"
+                Margin="48,24,48,0" 
+                x:Name="stackBox"
+                Direction="Column"
+                JustifyContent="Center"
+                AlignContent="Center"
+                AlignItems="Center"
+                HeightRequest="150"
+            >
+                </FlexLayout>
+            </Grid>            
+            <Grid RowSpacing="0"   IsVisible="True">
+                <Image
+                Grid.Row="0" 
+                Grid.Column="0"
+                Source="round_box.png"  
+                Aspect="AspectFit" 
+                HorizontalOptions="Center"
+                Margin="8,0,8,0"
+            />
+                <StackLayout
+                Grid.Row="0" 
+                Grid.Column="0" 
+                HeightRequest="150"
+                Margin="8,0,8,0" 
+                >
+                    <local:TextOverImage 
+                        FontSize="16" 
+                        Source="large_box.png" 
+                        Text="Civilians Won"
+                        Margin="0,16,0,0" 
+                        WidthRequest="180"
+                        x:Name="whoWon"
+                    />
+                    <StackLayout HorizontalOptions="Center"  Orientation="Horizontal">
+                        <local:TextOverImage 
+                            FontSize="16" 
+                            Source="round_box.png" 
+                            Text="Word 1"
+                            Padding="0,0,0,0" 
+                            WidthRequest="60"
+                            x:Name="civilanWord"
+                        />
+                        <local:TextOverImage 
+                            FontSize="16" 
+                            Source="round_box.png" 
+                            Text="Word 2"
+                            Padding="80,0,0,0" 
+                            WidthRequest="60"
+                            x:Name="underCoverWord"
+                        />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

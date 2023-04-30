@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:undercover="clr-namespace:UnderCover.views"
+             x:Class="UnderCover.views.ChooseNamePopUp"
+             x:DataType="undercover:ChooseNamePopUp"
+             x:Name="this"
+             BackgroundColor="#C0808080" 
+             Padding="10, 0" 
+             IsVisible="false" 
+             AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
+             AbsoluteLayout.LayoutFlags="All">
+    <ContentView.Content>
+        <Grid>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <StackLayout x:Name="stackContent" Orientation="Vertical"  WidthRequest="360" BackgroundColor="White">
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

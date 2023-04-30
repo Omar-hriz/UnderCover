@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:undercover="clr-namespace:UnderCover" 
+             x:DataType="undercover:TextOverImage"
+             x:Class="UnderCover.TextOverImage"
+             x:Name="this">
+  <ContentView.Content>
+        <Grid>
+            <Image 
+                Grid.Row="0" 
+                Grid.Column="0"
+                Source="{Binding Source, Source={x:Reference this}}"  
+                Aspect="AspectFit" 
+                HorizontalOptions="Center"
+            />
+            <Label 
+                Grid.Row="0" 
+                Grid.Column="0"
+                Text="{Binding Text, Source={x:Reference this}}"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                TextColor="#FFB743" 
+                FontSize="{Binding FontSize, Source={x:Reference this}}"
+                FontAttributes="Bold"
+            />
+        </Grid>
+  </ContentView.Content>
+</ContentView>
