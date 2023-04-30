@@ -23,18 +23,22 @@ namespace UnderCover
         {
             InitializeComponent();
             // Pour les tests
-            for (int i = 0; i < 2; i++)
+            /*for (int i = 0; i < 2; i++)
             {
                 PlayerDisplay player_d = new PlayerDisplay { Name = "John"+i.ToString(), Order = i.ToString() };
                 App.PlayerList.Add(player_d);
                 stackBox.Children.Add(player_d);
-            }
+            }*/
 
             // Vrai version
-            /*foreach (var player_d in App.PlayerList)
+            int i = 0;
+            foreach (var player in (Application.Current as App).playerList)
             {
+                PlayerDisplay player_d = new PlayerDisplay { Name = player.name, Order = i.ToString() };
+                App.PlayerList.Add(player_d);
                 stackBox.Children.Add(player_d);
-            }*/
+                i++;
+            }
         }
 
         void StartDelete(object sender, EventArgs e)

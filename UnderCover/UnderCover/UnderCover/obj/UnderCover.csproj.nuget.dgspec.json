@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Xamarin_last\\UnderCover\\UnderCover\\UnderCover\\UnderCover\\UnderCover.csproj": {}
+    "C:\\Users\\proprietaire\\OneDrive\\Documents\\GitHub\\UnderCover\\UnderCover\\UnderCover\\UnderCover\\UnderCover.csproj": {}
   },
   "projects": {
-    "D:\\Xamarin_last\\UnderCover\\UnderCover\\UnderCover\\UnderCover\\UnderCover.csproj": {
+    "C:\\Users\\proprietaire\\OneDrive\\Documents\\GitHub\\UnderCover\\UnderCover\\UnderCover\\UnderCover\\UnderCover.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Xamarin_last\\UnderCover\\UnderCover\\UnderCover\\UnderCover\\UnderCover.csproj",
+        "projectUniqueName": "C:\\Users\\proprietaire\\OneDrive\\Documents\\GitHub\\UnderCover\\UnderCover\\UnderCover\\UnderCover\\UnderCover.csproj",
         "projectName": "UnderCover",
-        "projectPath": "D:\\Xamarin_last\\UnderCover\\UnderCover\\UnderCover\\UnderCover\\UnderCover.csproj",
-        "packagesPath": "C:\\Users\\atref\\.nuget\\packages\\",
-        "outputPath": "D:\\Xamarin_last\\UnderCover\\UnderCover\\UnderCover\\UnderCover\\obj\\",
+        "projectPath": "C:\\Users\\proprietaire\\OneDrive\\Documents\\GitHub\\UnderCover\\UnderCover\\UnderCover\\UnderCover\\UnderCover.csproj",
+        "packagesPath": "C:\\Users\\proprietaire\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\proprietaire\\OneDrive\\Documents\\GitHub\\UnderCover\\UnderCover\\UnderCover\\UnderCover\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\atref\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\proprietaire\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

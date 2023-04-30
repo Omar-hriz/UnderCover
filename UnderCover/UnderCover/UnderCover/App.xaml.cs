@@ -17,7 +17,7 @@ namespace UnderCover
         public App()
         {
             InitializeComponent();
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Menu());
             this.wordsOfPlayers = new Dictionary<Player, String>();
             this.playerList = new List<Player>();
             this.words = new List<Dictionary<String, String>>();
