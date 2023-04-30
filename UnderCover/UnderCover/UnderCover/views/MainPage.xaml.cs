@@ -18,6 +18,7 @@ namespace UnderCover
         {
             Placeholder = "Player to be eliminated",
             PlaceholderColor = Color.White,
+            Margin = new Thickness(32,8,32,8),
         };
         public MainPage()
         {
@@ -61,7 +62,11 @@ namespace UnderCover
                 // Creating a binding
                 newEntry.SetBinding(Entry.TextProperty, new Binding("ViewModelProperty"));
 
-                Button newButton = new Button { Text = "validateButton" };
+                Button newButton = new Button 
+                { 
+                    Text = "Eliminate Player",
+                    Margin = new Thickness(32, 8, 32, 8),
+                };
                 newButton.Clicked += EliminatePlayer;
 
                 newButton.SetBinding(Button.CommandProperty, new Binding("ViewModelProperty2"));
@@ -85,11 +90,20 @@ namespace UnderCover
             
             string valueEntry = newEntry.Text;
 
-            foreach (var player in  App.PlayerList.ToList())
+
+            foreach (var player_d in  App.PlayerList.ToList())
             {
-                if (player.Name == valueEntry)
+                if (player_d.Name == valueEntry)
                 {
-                    App.PlayerList.Remove(player);
+                    App.PlayerList.Remove(player_d);
+                    foreach (var player in (Application.Current as App).playerList)
+                    {
+                        if(player.name == valueEntry)
+                        {
+                            player.isVoted = true;
+                        }
+                    }
+                        
                 }
             }
 
